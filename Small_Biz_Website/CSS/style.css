@@ -1,0 +1,74 @@
+/* Stylesheet for Crazy Bob's Pumpkin Patch Website */
+
+/* Global Style */
+body {
+    background-color: #333333;
+    font-family: sans-serif;
+}
+div#container {
+    margin: auto;
+    width: 1024px;
+    background-color: white;
+}
+header {
+    text-align: center;
+    display: block;
+    width: 100%;
+    background-color: #FF8F00;
+    color: whitesmoke;     
+    margin: 0px;
+    padding: 1px;
+}
+nav {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    clear: both;
+    width: 100%;
+    background-color: #FFCA28;
+    
+}
+nav ul {
+    display: block;
+    padding: 0px;
+    margin: 0px;    
+    list-style: none;
+    clear: both;
+}
+nav ul li {    
+    float: left;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+}
+nav ul li a:hover {    
+    border-radius: 2px;
+    animation: linkBackgroundAnimate 0.5s forwards;
+}
+h2 {
+    text-align: center;    
+}
+p {
+    margin: 20px
+}
+
+/* index.html style */
+img#pumpkin {
+    display: block;
+    margin: auto;  
+    width: vw;
+    
+}
+
+@keyframes linkBackgroundAnimate {
+    0% {
+        background-color:  #1B5E20;
+    }
+    100% {
+        background-color: #00C853;
+    }
+}
