@@ -7,13 +7,13 @@ body {
 }
 div#container {
     margin: auto;
-    width: 1024px;
+    width: 60%;
     background-color: white;
 }
 header {
     text-align: center;
     display: block;
-    width: 100%;
+    width: 1024;
     background-color: #FF8F00;
     color: whitesmoke;     
     margin: 0px;
@@ -26,7 +26,7 @@ nav {
     float: left;
     clear: both;
     width: 100%;
-    background-color: #FFCA28;
+    background-color: #FFbA28;
     
 }
 nav ul {
@@ -49,11 +49,23 @@ nav ul li a:hover {
     border-radius: 2px;
     animation: linkBackgroundAnimate 0.5s forwards;
 }
-h2 {
-    text-align: center;    
+footer {    
+    text-align: center;
+    font-family:serif;
 }
-p {
-    margin: 20px
+h2 {
+    text-align: center;  
+    color: #FF8F00;
+    margin-top: 70px;
+}
+p {    
+    width: 70%;
+    margin: auto;
+    color: #cc7700;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+/*    float: left;*/
 }
 
 /* index.html style */
@@ -61,7 +73,7 @@ img#pumpkin {
     display: block;
     margin: auto;  
     width: vw;
-    
+/*    float: left;*/
 }
 
 @keyframes linkBackgroundAnimate {
