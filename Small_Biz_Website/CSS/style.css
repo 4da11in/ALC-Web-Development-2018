@@ -1,11 +1,13 @@
 /* Stylesheet for Crazy Bob's Pumpkin Patch Website */
 
 /* Global Style */
+* {
+   font-family: 'EB Garamond', sans-serif; 
+}
 body {
     background-color: #333333;
     font-family: sans-serif;
-    margin: 0;
-    font-family: 'EB Garamond', sans-serif;
+    margin: 0;    
 }
 div#container {
     margin: auto;
@@ -63,10 +65,10 @@ footer {
 h2 {
     text-align: center;  
     color: #FF8F00;
-    margin-top: 70px;
+    margin: 10px;
 }
 p {    
-    width: 70%;
+    width: 90%;
     margin: auto;
     color: #cc7700;
     line-height: 25px;
@@ -76,13 +78,6 @@ p {
 .keep-open {
     clear: both;
 }
-/* index.html style */
-img#pumpkin {
-    display: block;
-    margin: auto;  
-    width: 40%;
-}
-
 @keyframes linkBackgroundAnimate {
     0% {
         background-color:  #1B5E20;
@@ -91,18 +86,16 @@ img#pumpkin {
         background-color: #00C853;
     }
 }
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+/* index.html style */
+
+
 /* about.html */
 img#bob {
-    display: inline-block;
     width: 50%;
-    float: left;
-    margin: 0px;    
-}
-p#p-about {
-    float: left;
-    clear: both;
-    width: 5%;
-}
-h2#h2-about {
-    float: left;
+    padding: 20px;
 }
