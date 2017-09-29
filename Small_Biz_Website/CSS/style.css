@@ -30,23 +30,22 @@ header {
 }
 nav {
     display: block;
-    margin: 0px;
+    margin: auto;
     padding: 0px;
     float: left;
     clear: both;
     width: 100%;
-    background-color: #FFbA28;
-    
+    background-color: #FFbA28;    
 }
 nav ul {
     display: block;
     padding: 0px;
-    margin: 0px;    
+    margin: auto;    
     list-style: none;
     clear: both;
 }
 nav ul li {    
-    float: left;
+    display: inline-block;
 }
 nav ul li a {
     display: block;
@@ -98,4 +97,27 @@ img {
 img#bob {
     width: 50%;
     padding: 20px;
+}
+/* produce.html */
+gallery {
+    background-color: #555555;
+}
+figure {
+    background-color: #550000;
+    width: 300px;
+    box-shadow: 5px 5px 10px black;
+    padding: 10px;
+    padding-top: 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+figure img {
+    margin: auto;
+    padding: 0px;
+    width: 250px;  
+}
+figure figcaption {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
 }
