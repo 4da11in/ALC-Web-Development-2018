@@ -26,7 +26,7 @@ header {
     color: #662200;     
     margin: 0px;
     padding: 1px;
-    font-size: 160%;
+    font-size: 200%;
 }
 nav {
     display: block;
@@ -51,15 +51,17 @@ nav ul li a {
     display: block;
     text-decoration: none;
     color: white;
-    padding: 14px 16px;
+    padding: 20px;
+    font-size: 20px;
 }
 nav ul li a:hover {    
     border-radius: 2px;
-    animation: linkBackgroundAnimate 0.5s forwards;
+    animation: linkBackgroundAnimate 0.25s forwards;
 }
 footer {    
     text-align: center;
     font-family:serif;
+    color: #aaaaaa;
 }
 h2 {
     text-align: center;  
@@ -79,10 +81,10 @@ p {
 }
 @keyframes linkBackgroundAnimate {
     0% {
-        background-color:  #1B5E20;
+        background-color:  #FFbA28;
     }
     100% {
-        background-color: #00C853;
+        background-color: #FF8F00;
     }
 }
 img {
@@ -99,8 +101,8 @@ img#bob {
     padding: 20px;
 }
 /* produce.html */
-gallery {
-    background-color: #555555;
+#gallery {
+       
 }
 figure {
     background-color: #550000;
@@ -110,6 +112,7 @@ figure {
     padding-top: 30px;
     border-radius: 10px;
     display: inline-block;
+    
 }
 figure img {
     margin: auto;
@@ -117,7 +120,22 @@ figure img {
     width: 250px;  
 }
 figure figcaption {
-    color: white;
+    color: #FF8F00;
     text-align: center;
     margin-top: 10px;
+}
+/* contact */
+form {
+    color: #FF8F00;
+    
+}
+#contactinfo {
+    width: 40%;
+    margin: auto;
+    background-color: #555555;
+    padding: 20px;
+}
+form input, form textarea {
+    background-color: #aaaaaa;
+    border: none;
 }
