@@ -7,7 +7,8 @@
 body {
     background-color: #333333;
     font-family: sans-serif;
-    margin: 0;    
+    margin: 0px;  
+    padding: 0px;
 }
 div#container {
     margin: auto;
@@ -26,7 +27,7 @@ header {
     color: #662200;     
     margin: 0px;
     padding: 1px;
-    font-size: 200%;
+    font-size: 3vw;
 }
 nav {
     display: block;
@@ -103,39 +104,41 @@ img#bob {
 }
 /* produce.html */
 #gallery {
-       
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    width: 100vw;
 }
 figure {
     background-color: #550000;
-    width: 300px;
     box-shadow: 5px 5px 10px black;
-    padding: 10px;
-    padding-top: 30px;
+    padding: 0px;
     border-radius: 10px;
-    display: inline-block;
-    
+    flex: 0 0 25%;  
+    margin: 10px;
 }
 figure img {
-    margin: auto;
-    padding: 0px;
-    width: 250px;  
+    align-self: center;
+    margin-top: 2vh;
+    object-fit: contain;
 }
 figure figcaption {
     color: #FF8F00;
     text-align: center;
-    margin-top: 10px;
 }
 /* contact */
-form {
-    color: #FF8F00;
-    
-}
 #contactinfo {
     width: 40%;
     margin: auto;
-    background-color: #555555;
     padding: 20px;
 }
+form {
+    color: #FF8F00;  
+    background-color: #555555;
+}
+
 form input, form textarea {
     background-color: #aaaaaa;
     border: none;
