@@ -19,7 +19,7 @@ div#container {
 header {
     text-align: center;
     display: block;
-    width: 1024;
+    width: 100%;
     background-image: url("../Images/pumpkin.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -30,34 +30,32 @@ header {
     font-size: 3vw;
 }
 nav {
-    display: block;
+    display: flex;
     margin: auto;
     padding: 0px;
-    float: left;
-    clear: both;
     width: 100%;
-    background-color: #FFbA28;    
+    background-color: #FFbA28; 
+    justify-content: flex-start;
 }
 nav ul {
     display: block;
     padding: 0px;
-    margin: auto;    
+    margin: 0px;    
     list-style: none;
-    clear: both;
+    
 }
 nav ul li {    
     display: inline-block;
 }
 nav ul li a {
-    display: block;
+    display: inline-block;
     text-decoration: none;
     color: white;
-    padding: 20px;
-    font-size: 20px;
+    padding: 2vw;
 }
 nav ul li a:hover {    
     border-radius: 2px;
-    animation: linkBackgroundAnimate 0.25s forwards;
+    animation: linkBackgroundAnimate 0.15s forwards;
 }
 footer {    
     text-align: center;
@@ -112,6 +110,10 @@ img#bob {
     width: 100vw;
 }
 figure {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: center;
     background-color: #550000;
     box-shadow: 5px 5px 10px black;
     padding: 0px;
@@ -121,8 +123,10 @@ figure {
 }
 figure img {
     align-self: center;
-    margin-top: 2vh;
-    object-fit: contain;
+    margin: 0px;
+    object-fit: contain;  
+    width: 90%;
+    margin: auto;
 }
 figure figcaption {
     color: #FF8F00;
