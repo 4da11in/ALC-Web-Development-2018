@@ -27,8 +27,9 @@ header {
     color: #662200;     
     margin: 0px;
     padding: 1px;
-    font-size: 3vw;
+    font-size: 40px;
 }
+
 nav {
     display: flex;
     margin: auto;
@@ -46,12 +47,13 @@ nav ul {
 }
 nav ul li {    
     display: inline-block;
+    font-size: 17px;
 }
 nav ul li a {
     display: inline-block;
     text-decoration: none;
     color: white;
-    padding: 2vw;
+    padding: 20px;
 }
 nav ul li a:hover {    
     border-radius: 2px;
@@ -106,8 +108,9 @@ img#bob {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0px;
+    margin: auto;
     width: 100vw;
+    max-width: 2048px;
 }
 figure {
     display: flex;
@@ -118,8 +121,9 @@ figure {
     box-shadow: 5px 5px 10px black;
     padding: 0px;
     border-radius: 10px;
-    flex: 0 0 25%;  
+    flex: 0 0 33%;  
     margin: 10px;
+    max-width: 300px;
 }
 figure img {
     align-self: center;
@@ -127,6 +131,8 @@ figure img {
     object-fit: contain;  
     width: 90%;
     margin: auto;
+    max-height: 12vw;
+    margin-top: 2vw;
 }
 figure figcaption {
     color: #FF8F00;
@@ -136,14 +142,41 @@ figure figcaption {
 #contactinfo {
     width: 40%;
     margin: auto;
-    padding: 20px;
+    padding: 0px;
 }
 form {
-    color: #FF8F00;  
-    background-color: #555555;
+    color: #FF8F00; 
+    font-size: 20px;   
+    background-color: white;
+    padding: 20px;
 }
 
 form input, form textarea {
-    background-color: #aaaaaa;
-    border: none;
+    background-color: white;
+    border: 1px solid green;
+    display: block;    
+    font-size: 17px;
+    font-family: sans-serif;
+    padding: 3px;
+}
+form button {
+    color: green;
+    border: 1px solid green;
+    background-color: white;
+    border-radius: 3px;
+    font-size: 20px;    
+    margin-top: 20px;
+}
+form button:active {
+    
+}
+@media only screen and (max-width: 700px) {
+    header {
+        font-size: 5vw;
+    }
+    figure {
+        flex: 0 0 40%;        
+    }
+    figure img {
+
 }
