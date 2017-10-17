@@ -120,7 +120,7 @@ figure {
     align-content: center;
     background-color: #550000;
     box-shadow: 5px 5px 10px black;
-    padding: 0px;
+    padding: 20px;
     border-radius: 10px;
     flex: 0 0 33%;  
     margin: 10px;
@@ -133,11 +133,12 @@ figure img {
     width: 90%;
     margin: auto;
     max-height: 12vw;
-    margin-top: 2vw;
+    
 }
 figure figcaption {
     color: #FF8F00;
     text-align: center;
+    margin-top: 10px;
 }
 /* contact */
 #contactinfo {
